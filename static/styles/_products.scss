@@ -1,0 +1,351 @@
+$pink: rgb(255, 162, 178);
+
+body, html {
+    margin: 0;
+}
+
+
+.products__navbar{
+    width: 100vw;
+    height:40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom:0px;
+    padding: 0;
+}
+
+
+
+.productsContent {
+    margin-top:15px;
+    margin:10px;
+}
+
+.banner {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+
+
+.searchBarContainer {
+    margin-bottom:40px;
+    margin-left:auto;
+    margin-right:auto;
+    color:black;
+    font-size: 1.5rem;
+
+
+
+    .searchBar {
+        display: flex;
+        justify-content: center;
+
+        input {
+            width:180px;
+            border: solid $pink 2px;
+        }
+    }
+}
+
+
+
+.bannerImageContainer {
+    height:400px;
+    width:324px;
+
+    .bannerImage{
+        height:100%;
+        width:100%;
+    }
+    
+    .bannerText {
+        text-align: center;
+        font-size:1.5rem;
+    }
+}
+
+
+.womensGrid {
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:5px;
+    row-gap: 40px;
+}
+
+.womensGrid__items {
+    text-align:center;
+}
+
+.womensGrid__imageContainer{
+    height:251px;
+    width:100%;
+}
+
+.womensGrid__image {
+    width:100%;
+    height:100%;
+}
+
+.womensGrid__imageTextContainer {
+    width:100%;
+    height:54px;
+    font-size:1rem;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.womensGrid__imageText {
+    max-height: 100%;
+    margin:0;
+    //color:rgb(255, 162, 178);
+    color:black;
+    -webkit-text-fill-color: rgb(255, 162, 178);
+    -webkit-text-stroke-width: 0.4px;
+    padding:5px;
+    //font-size:1rem;
+}
+    
+
+
+
+/*** Product Media Queries ***/
+@media (min-width:410px) {
+    .womensGrid {
+
+        .womensGrid__imageContainer{
+            height:270px;
+            width:100%;
+        }
+
+        .womensGrid__imageTextContainer {
+            width:100%;
+            height:73px;
+            font-size:1.1rem;
+            display:flex;
+            flex-direction: column;
+            align-content: center;
+            
+            
+        }
+
+
+    }
+}
+
+
+@media (min-width:500px) {
+    .products__navbar {
+        height: 80px;
+        font-size: 1.5rem;
+    }
+}
+
+
+
+@media (min-width:560px) {
+    .womensGrid {
+        
+
+        .womensGrid__imageContainer{
+            height:323px;
+            width:100%;
+        }
+
+        .womensGrid__imageTextContainer {
+            width:100%;
+            height:126.5px;
+            font-size:1rem;
+            display:flex;
+            flex-direction: column;
+            align-content: center;
+        }
+
+
+
+    }
+}
+
+
+@media (min-width:715px) {
+    .womensGrid {
+
+        .womensGrid__imageContainer{
+            height:399px;
+            width:100%;
+        }
+
+        .womensGrid__imageTextContainer {
+            width:100%;
+            height:204px;
+            font-size:1rem;
+            display:flex;
+            flex-direction: column;
+            align-content: center;
+        }
+
+
+
+    }
+}
+
+
+@media (min-width:768px) {
+    .womensGrid {
+
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap:20px;
+        grid-row: 1fr 1fr;
+        row-gap: 40px;
+
+        .womensGrid__imageContainer{
+            height:298.6px;
+            width:100%;
+        }
+
+        .womensGrid__imageTextContainer {
+            width:100%;
+            height:101.66px;
+            font-size:1.4rem;
+            display:flex;
+            flex-direction: column;
+            align-content: center;
+        }
+
+
+    }
+
+    .banner {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width:100%;
+        margin-top:100px;
+        margin-bottom:60px;
+
+        
+        .bannerImageContainer {
+            height:600px;
+            width:524px;
+        }
+        
+        .bannerImage{
+            height:100%;
+            width:100%;
+        }
+        
+        .bannerTextContainer {
+            display:flex;
+            align-items: center;
+            text-align:center;
+            height:600px;
+            width:237.66px;
+            text-align: center;
+            font-size:2.5rem;
+
+            .bannerText {
+                width:100%;
+            }
+            
+        }
+    }
+
+    .searchBar {
+        display: flex;
+        justify-content: center;
+
+        input {
+            width:360px;
+            border: solid $pink 2px;
+        }
+    }
+    
+}
+
+
+
+@media (min-width:1000px) {
+    .womensGrid {
+
+        .womensGrid__imageContainer{
+            height:337.33px;
+            width:100%;
+        }
+
+        .womensGrid__imageTextContainer {
+            width:100%;
+            height:230.5px;
+            font-size:2rem;
+            display:flex;
+            flex-direction: column;
+            align-content: center;
+        }
+    }
+
+    
+}
+
+
+
+/* 49.33 + 929.33*/
+
+@media (min-width: 1500px) {
+    .womensGrid {
+
+        .womensGrid__items {
+            height:978.66px;
+
+            .womensGrid__imageContainer{
+                height:929.33px;
+                width:100%;
+             }
+
+                .womensGrid__imageTextContainer {
+                width:100%;
+                height:230.5px;
+                font-size:2rem;
+                display:flex;
+                flex-direction: column;
+                align-content: center;
+            }
+        }
+    }
+
+    
+}
+
+// @media (min-width: 1700px) {
+//     .womensGrid {
+
+//         .womensGrid__items {
+//             height:1500px;
+
+//             .womensGrid__imageContainer{
+//                 height:1450px;
+//                 width:100%;
+//             }
+
+//             .womensGrid__imageTextContainer {
+//                 width:100%;
+//                 height:230.5px;
+//                 font-size:2rem;
+//                 display:flex;
+//                 flex-direction: column;
+//                 align-content: center;
+//             }
+//         }
+//     }
+
+    
+// }
+

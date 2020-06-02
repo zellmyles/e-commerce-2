@@ -1,0 +1,206 @@
+$border: solid black 2px;
+$biggerFont: 2rem;
+$pink: rgb(255, 162, 178);
+
+
+
+body, html {
+    margin: 0;
+}
+
+nav {
+
+    .contactNavbar {
+        width: 100vw;
+        height:40px;
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom:0px;
+        padding: 0;
+    }
+
+}
+
+.content {
+   
+        .socialMedia__icons{
+            height:100px;
+            display:flex;
+            justify-content: space-evenly;
+            align-items:center;
+            margin-top:40px;
+            
+
+            .fa {
+                font-size:80px;
+                text-decoration: none;
+                color:black;
+           
+
+            }
+        }
+
+    .formContainer {
+        // display:flex;
+        // flex-direction: column;
+        // align-items: center;
+
+        margin-top:40px;
+
+        .form {
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        }
+
+        .label {
+            margin-bottom: 50px;
+        }
+
+        input {
+        height:40px;
+        width:350px;
+        padding:0px;
+        border: $border;
+        font-size: 1rem;
+        }
+
+        // .formLabel {
+        //     text-align:center;
+        //     margin-top:40px;
+        //     font-size:1rem;
+        // }
+
+        .formLabel {
+            font-size:1rem;
+            margin-bottom: 0px;
+        }
+
+        .textarea{
+            margin-top: 40px;
+
+            .textareaLabel{
+                text-align:center;
+            }
+
+            // .inputBox {
+            //     text-align:center;
+            // }
+        }
+
+
+        textarea {
+        width:350px;
+        height:150px;
+        border:$border;
+        padding:0px;
+        }
+
+        input {
+            background-color: $pink;
+        }
+
+        
+        .form__btn {
+            width:135px;
+            margin-left:auto;
+            margin-right:auto;
+            padding-top:20px;
+
+
+            .form__sumbitBTN {
+                background-color: $pink;
+                color:white;
+                padding:15px;
+                border-radius:50%;
+                width:100%;
+            }
+        }
+        
+        
+
+    }
+
+}
+
+
+/**** Media Queries ***/
+@media (min-width:500px) {
+    .contactNavbar{
+        height: 80px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .content{
+        
+
+        .socialMedia__icons {
+            height:200px;
+
+            .fa {
+                font-size:180px;
+            }
+        }
+
+
+        .formContainer {
+
+
+
+            input {
+                height:60px;
+                width:704px;
+                font-size: $biggerFont;
+            }
+
+            .formLabel {
+                font-size: $biggerFont;
+            }
+
+            textarea {
+                width:704px;
+                height:300px;
+            
+                }
+        }
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .content{
+        
+
+        .socialMedia__icons {
+            height:200px;
+
+            .fa {
+                font-size:180px;
+            }
+        }
+
+
+        .formContainer {
+
+
+
+            input {
+                height:60px;
+                width:820px;
+                font-size: $biggerFont;
+            }
+
+            textarea {
+                width:820px;
+                height:300px;
+                font-size: $biggerFont;
+            }
+        }
+    }
+}

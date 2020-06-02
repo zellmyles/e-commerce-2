@@ -1,0 +1,150 @@
+{
+    "items": [
+        {
+            "name": "Vintage 80s cherry red sweatshirt",
+            "price": 25,
+            "img": "/productimages/ecommerceRed.png",
+            "category": "Tops"
+        },
+        {
+            "name": "Brandy Melville black long sleeved t-shirt dress",
+            "price": 25,
+            "img": "/productimages/gridImage8.jpg",
+            "category": "Tops"
+        },
+        {
+            "name": "Baby blue lightweight jacket from the brand Blair",
+            "price": 25,
+            "img": "/productimages/ecommerceBlue.png",
+            "category": "Tops"
+        },
+        {
+            "name": "Wool and nylon blend purple coat with a faux fur collar",
+            "price": 25,
+            "img": "/productimages/gridImage10.jpg",
+            "category": "Tops"
+        },
+        {
+            "name": "The North Face 700 goose down puffer coat",
+            "price": 200,
+            "img": "/productimages/ecommerceBlack.png",
+            "category": "Tops"
+        },
+        {
+            "name": "Vintage 80s jumpsuit and blazer set",
+            "price": 25,
+            "img": "/productimages/ecommerceBlazer.png",
+            "category": "Tops"
+        },
+        {
+            "name": "Vintage 90s lavender genuine leather skirt",
+            "price": 40,
+            "img": "/productimages/gridImage9.jpg",
+            "category": "Bottoms"
+        },
+        {
+            "name": "Vintage 80s acid wash high rise jeans",
+            "price": 35,
+            "img": "/productimages/gridImage7.jpg",
+            "category": "Bottoms"
+        },
+        {
+            "name": "Silky houndstooth slip dress from VS",
+            "price": 18,
+            "img": "/productimages/gridImage11.jpg",
+            "category": "Tops"
+        },
+        {
+            "name": "Vintage 80s color block matching two piece set",
+            "price": 28,
+            "img": "/productimages/gridImage12.jpg",
+            "category": "Tops"
+        },
+        {
+            "name": "Early 2000s polyester floral skirt",
+            "price": 25,
+            "img": "/productimages/gridImage13.jpg",
+            "category": "Bottoms"
+        },
+        {
+            "name": "Vintage pink lightweight jacket from Blair",
+            "price": 25,
+            "img": "/productimages/gridImage14.jpg",
+            "category": "Tops"
+        },
+        {
+            "name": "Vintage 70s handmade yellow and black blazer",
+            "price": 25,
+            "img": "/productimages/gridImage1.jpg",
+            "category": "Tops"
+        },
+        {
+            "name": "Pastel Energie turtleneck sweater",
+            "price": 25,
+            "img": "/productimages/gridImage2.jpg",
+            "category": "Tops"
+        },
+        {
+            "name": "Vintage 1996 Viper ride tank top from Six Flags",
+            "price": 15,
+            "img": "/productimages/gridImage3.jpg",
+            "category": "Tops"
+        },
+        {
+            "name": "Stretchy high rise pants from the brand Wrapper",
+            "price": 40,
+            "img": "/productimages/gridImage4.jpg",
+            "category": "Bottoms"
+        },
+        {
+            "name": "Vintage 90s burnt orange pants",
+            "price": 25,
+            "img": "/productimages/gridImage5.jpg",
+            "category": "Bottoms"
+        },
+        {
+            "name": "High waist light wash jeans from Ltd Jeans",
+            "price": 45,
+            "img": "/productimages/gridImage6.jpg",
+            "category": "Bottoms"
+        },
+        {
+            "name": "90s Esprit Sportiv purple hoodie",
+            "price": 16,
+            "img": "/productimages/gridImage20.jpg",
+            "category": "Tops"
+        },
+        {
+            "name": "90s color blocked jacket from Styleworks",
+            "price": 35,
+            "img": "/productimages/gridImage15.jpg",
+            "category": "Tops"
+        },
+        {
+            "name": "80s Gitano white and black heart pants",
+            "price": 20,
+            "img": "/productimages/gridImage16.jpg",
+            "category": "Bottoms"
+        },
+        {
+            "name": "80s baby blue cardigan with floral white buttons",
+            "price": 20,
+            "img": "/productimages/gridImage17.jpg",
+            "category": "Tops"
+        },
+        {
+            "name": "90s Champion lightweight windbreaker",
+            "price": 25,
+            "img": "/productimages/gridImage18.jpg",
+            "category": "Tops"
+        },
+        {
+            "name": "90s Arizona Jeans Co. purple fleece sweatshirt",
+            "price": 18,
+            "img": "/productimages/gridImage19.jpg",
+            "category": "Tops"
+        }
+        
+    ]
+}
+
